@@ -43,7 +43,7 @@
 if !PluginManager.installed?("Early Evolution")
   PluginManager.register({                                                 
     :name    => "Early Evolution",                                        
-    :version => "1.0",                                                     
+    :version => "1.0.1",                                                     
     :link    => "https://www.pokecommunity.com/showthread.php?t=477104",             
     :credits => "FL"
   })
@@ -146,6 +146,12 @@ module EarlyEvolution
     :DRAKLOAK     => 35, # 50
     :DRAGAPULT    => 50, # 60
     :MRRIME       => 37, # 42
+	
+    :ESPATHRA     => 30, # 35
+    :PALAFIN      => 33, # 38
+    :REVAVROOM    => 35, # 40
+    :ARCTIBAX     => 30, # 35
+    :BAXCALIBUR   => 49, # 54
   }
 
   # Item. When nil, work without item.
